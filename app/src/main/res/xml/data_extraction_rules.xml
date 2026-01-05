@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Exclude cache directory -->
+        <exclude domain="cache" path="." />
+        
+        <!-- Exclude all shared preferences -->
+        <exclude domain="sharedpref" path="." />
+    </cloud-backup>
+</data-extraction-rules>

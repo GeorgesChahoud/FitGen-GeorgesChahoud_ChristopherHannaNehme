@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "639853172336",
+    "project_id": "fitgen-ab07e",
+    "storage_bucket": "fitgen-ab07e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639853172336:android:6f40f74c50f0e4a9fe46b5",
+        "android_client_info": {
+          "package_name": "com.fitgen.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTl9n8W7DmgptazTM7uYCqfgWW84HdSiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

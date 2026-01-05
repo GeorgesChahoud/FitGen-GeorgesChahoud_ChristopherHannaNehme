@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude cache directory -->
+    <exclude domain="cache" path="." />
+    
+    <!-- Exclude all shared preferences -->
+    <exclude domain="sharedpref" path="." />
+    
+    <!-- Include other app data -->
+    <include domain="file" path="." />
+    <include domain="database" path="." />
+</full-backup-content>
