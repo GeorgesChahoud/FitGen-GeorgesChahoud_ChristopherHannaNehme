@@ -2,7 +2,8 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/black">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -19,9 +20,9 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardElevation="4dp"
+                android:layout_marginBottom="16dp"
                 app:cardCornerRadius="12dp"
-                android:layout_marginBottom="16dp">
+                app:cardElevation="4dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -34,62 +35,62 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:gravity="center">
+                        android:gravity="center"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="32dp"
                             android:layout_height="32dp"
-                            android:src="@drawable/ic_fire"
-                            android:contentDescription="@string/current_streak" />
+                            android:contentDescription="@string/current_streak"
+                            android:src="@drawable/ic_fire" />
 
                         <TextView
                             android:id="@+id/tvCurrentStreak"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="0"
-                            android:textSize="32sp"
-                            android:textStyle="bold"
                             android:layout_marginTop="8dp"
-                            android:textColor="?android:attr/textColorPrimary" />
+                            android:text="0"
+                            android:textColor="?android:attr/textColorPrimary"
+                            android:textSize="32sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/current_streak"
-                            android:textSize="14sp"
-                            android:textColor="?android:attr/textColorSecondary" />
+                            android:textColor="?android:attr/textColorSecondary"
+                            android:textSize="14sp" />
                     </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:gravity="center">
+                        android:gravity="center"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="32dp"
                             android:layout_height="32dp"
-                            android:src="@drawable/ic_medal_gold"
-                            android:contentDescription="@string/longest_streak" />
+                            android:contentDescription="@string/longest_streak"
+                            android:src="@drawable/ic_medal_gold" />
 
                         <TextView
                             android:id="@+id/tvLongestStreak"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="0"
-                            android:textSize="32sp"
-                            android:textStyle="bold"
                             android:layout_marginTop="8dp"
-                            android:textColor="?android:attr/textColorPrimary" />
+                            android:text="0"
+                            android:textColor="?android:attr/textColorPrimary"
+                            android:textSize="32sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/longest_streak"
-                            android:textSize="14sp"
-                            android:textColor="?android:attr/textColorSecondary" />
+                            android:textColor="?android:attr/textColorSecondary"
+                            android:textSize="14sp" />
                     </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
@@ -99,9 +100,9 @@
                 android:id="@+id/cardChallenge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardElevation="4dp"
+                android:layout_marginBottom="16dp"
                 app:cardCornerRadius="12dp"
-                android:layout_marginBottom="16dp">
+                app:cardElevation="4dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -113,73 +114,73 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/todays_challenge"
+                        android:textColor="?android:attr/textColorPrimary"
                         android:textSize="20sp"
-                        android:textStyle="bold"
-                        android:textColor="?android:attr/textColorPrimary" />
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/tvChallengeDescription"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Do 20 pushups"
-                        android:textSize="24sp"
-                        android:textStyle="bold"
                         android:layout_marginTop="16dp"
-                        android:textColor="?attr/colorPrimary" />
+                        android:text="Do 20 pushups"
+                        android:textColor="?attr/colorPrimary"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/tvChallengeTarget"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Target: 20 reps"
-                        android:textSize="16sp"
                         android:layout_marginTop="8dp"
-                        android:textColor="?android:attr/textColorSecondary" />
+                        android:text="Target: 20 reps"
+                        android:textColor="?android:attr/textColorSecondary"
+                        android:textSize="16sp" />
 
                     <!-- Countdown Timer -->
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
                         android:layout_marginTop="16dp"
-                        android:gravity="center_vertical">
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/new_challenge_in"
-                            android:textSize="14sp"
-                            android:textColor="?android:attr/textColorSecondary" />
+                            android:textColor="?android:attr/textColorSecondary"
+                            android:textSize="14sp" />
 
                         <TextView
                             android:id="@+id/tvCountdown"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="00:00:00"
-                            android:textSize="14sp"
-                            android:textStyle="bold"
                             android:layout_marginStart="8dp"
-                            android:textColor="?android:attr/textColorPrimary" />
+                            android:text="00:00:00"
+                            android:textColor="?android:attr/textColorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
                     </LinearLayout>
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnCompleteChallenge"
+                        style="@style/Widget.Material3.Button"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/mark_complete"
                         android:layout_marginTop="20dp"
-                        app:cornerRadius="8dp"
-                        style="@style/Widget.Material3.Button" />
+                        android:text="@string/mark_complete"
+                        app:cornerRadius="8dp" />
 
                     <TextView
                         android:id="@+id/tvCompletedStatus"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
                         android:text="@string/challenge_completed"
+                        android:textColor="@android:color/holo_green_dark"
                         android:textSize="16sp"
                         android:textStyle="bold"
-                        android:textColor="@android:color/holo_green_dark"
-                        android:layout_marginTop="16dp"
                         android:visibility="gone" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
@@ -188,39 +189,39 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardElevation="2dp"
-                app:cardCornerRadius="8dp">
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:padding="16dp"
-                    android:gravity="center_vertical">
+                    android:padding="16dp">
 
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/ic_challenges"
-                        android:contentDescription="@string/total_challenges" />
+                        android:contentDescription="@string/total_challenges"
+                        android:src="@drawable/ic_challenges" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
                         android:layout_weight="1"
                         android:text="@string/total_challenges"
-                        android:textSize="16sp"
-                        android:layout_marginStart="16dp"
-                        android:textColor="?android:attr/textColorPrimary" />
+                        android:textColor="?android:attr/textColorPrimary"
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/tvTotalChallenges"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="0"
+                        android:textColor="?attr/colorPrimary"
                         android:textSize="20sp"
-                        android:textStyle="bold"
-                        android:textColor="?attr/colorPrimary" />
+                        android:textStyle="bold" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>

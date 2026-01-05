@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/md_theme_light_background">
+    android:background="@color/black">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -158,8 +158,8 @@
                         android:textAppearance="@style/TextAppearance.FitGen.Caption"
                         android:textColor="@color/white"
                         android:textStyle="bold"
-                        tools:text="Beginner"
-                        tools:background="@drawable/bg_difficulty_beginner" />
+                        tools:background="@drawable/bg_difficulty_beginner"
+                        tools:text="Beginner" />
 
                     <View
                         android:layout_width="match_parent"
