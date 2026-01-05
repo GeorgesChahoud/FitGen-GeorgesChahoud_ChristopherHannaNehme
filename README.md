@@ -334,7 +334,7 @@ This project is for educational purposes. Please ensure you have the proper righ
 ## Contributors
 
 - **Developer**: Christopher Hanna Nehme
-- **Repository**: [GitHub - Kris2k5/Christopher-Hanna-Nehme](https://github.com/Kris2k5/Christopher-Hanna-Nehme)
+- **Developer**: Georges Chahoud
 
 ## Acknowledgments
 
