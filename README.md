@@ -198,8 +198,7 @@ app/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Kris2k5/Christopher-Hanna-Nehme.git
-   cd Christopher-Hanna-Nehme
+   git clone https://github.com/GeorgesChahoud/FitGen-GeorgesChahoud_ChristopherHannaNehme.git
    ```
 
 2. **Open in Android Studio**
@@ -327,10 +326,6 @@ Potential features for future versions:
 **Issue**: Gradle build fails
 - **Solution**: Run `./gradlew clean` and rebuild
 
-## License
-
-This project is for educational purposes. Please ensure you have the proper rights and licenses for any production use.
-
 ## Contributors
 
 - **Developer**: Christopher Hanna Nehme
@@ -338,18 +333,8 @@ This project is for educational purposes. Please ensure you have the proper righ
 
 ## Acknowledgments
 
-- Material Design 3 guidelines by Google
 - Firebase platform by Google
 - Android Jetpack components
 - Kotlin programming language
 
-## Support
-
-For issues, questions, or contributions:
-1. Open an issue on GitHub
-2. Submit a pull request
-3. Contact the repository maintainer
-
 ---
-
-**Built with ❤️ using Kotlin and Material Design 3**
